@@ -1,0 +1,12 @@
+{
+    "home":{
+        "route":"3B",
+        "stop": "University Avenue",
+        "destination": "Tim Horton\"s - King St."
+    },
+    "sample-1":{
+        "route":"1A",
+        "stop": "400 Westmorland Road",
+        "destination": "Retail Drive (across from Costco)"
+    }
+}

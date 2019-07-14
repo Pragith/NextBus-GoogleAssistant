@@ -1,0 +1,5 @@
+{
+    "routes": "http://www.nextbus.com/api/pub/v1/agencies/stjohn/routes",
+    "route": "http://www.nextbus.com/api/pub/v1/agencies/stjohn/routes/<route>",
+    "stops": "http://www.nextbus.com/api/pub/v1/agencies/stjohn/routes/<route>/stops/<stop>/predictions?coincident=true&direction=<direction>&destination=<destination>"
+}
