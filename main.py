@@ -1,4 +1,3 @@
-#%%
 import requests, json, time, pandas as pd
 
 # Functions
@@ -55,19 +54,18 @@ def nextbus_api(endpoint, as_dataframe=True):
             else:
                 return df
         return response
-    except requests.exceptions.RequestException as err:
-        return { 'error': str(err) }
+    except Exception as e:
+        return 'API error: '+e
 
 def get_api_url(base_url, params):
     for param in params:
         base_url = base_url.replace('<'+param+'>', params[param])
     return base_url
 
-def build_voice_response(tag, minutes):
+def voice_response(tag, minutes):
     next_bus = minutes[0]
-    minutes.append(900)
-    minutes.append(4000)
-    due_msg = 'now. ' if next_bus == 0 else 'in ' + str(next_bus) + ' minutes. '
+    due_msg = 'now. ' if next_bus == '0' else 'in ' + next_bus + ' minutes. '
+    
     msg = 'Your next bus {} is arriving {}'.format(tag, due_msg)
 
     if len(minutes) == 2:
@@ -75,8 +73,9 @@ def build_voice_response(tag, minutes):
     
     if len(minutes) > 2:
         msg += 'Following it are arriving in '
-        msg += ', '.join(list(map(str, minutes[1:])))
-        msg = msg[:-2] + ' minutes.' # Strip the extra 'and ' in the end
+        msg += ', '.join(minutes[1:]) + ' minutes.'
+        pos = msg.rfind(',')
+        msg = msg[:pos] + ' and' + msg[pos+1:]
     return msg
 
 def process_input(input_msg):
@@ -112,8 +111,8 @@ def process_input(input_msg):
             minutes = minutes['minutes'].tolist()
             try:            
                 minutes = nextbus_api(get_api_url(endpoints['stops'], params))
-                minutes = minutes['minutes'].tolist()
-                return build_voice_response(tag, minutes)
+                minutes = minutes['minutes'].astype(str).tolist()
+                return voice_response(tag, minutes)
             except Exception:
                 return "Sorry, I had trouble fetching the time. Please try again."
         
@@ -127,9 +126,9 @@ trips = json.loads(open('trips.json', 'r').read())
 tags = json.loads(open('tags.json', 'r').read())
 
 # User selection
-input_msg = "What's the Next bus from home?"
+input_msg = "When's the Next bus from home?"
 # input_msg = "update routes"
 
 # App Execution:
-print(input_msg)
+input_msg = input_msg.lower()
 print(process_input(input_msg))
