@@ -30,7 +30,7 @@ def generate_stops_master():
 
 def nextbus_api(endpoint, as_dataframe=True):
     # TODO - Input via GET request to my app's server:
-    api_key = "2d96c16cac0cb6ccd3d04534146f7f2a"
+    api_key = "1b9dc6b03b9d51407536eea824f32aff"
 
     # Payload
     headers = {"Referer": "http://www.nextbus.com/"}
@@ -52,7 +52,7 @@ def nextbus_api(endpoint, as_dataframe=True):
                 else:
                     return pd.DataFrame.from_dict(response)
             else:
-                return df
+                return pd.DataFrame({"minutes":[row[0]['minutes'] for row in df['values'].tolist()]})
         return response
     except Exception as e:
         return 'API error: '+e
@@ -127,7 +127,7 @@ tags = json.loads(open('tags.json', 'r').read())
 
 # User selection
 input_msg = "When's the Next bus from home?"
-# input_msg = "update routes"
+#input_msg = "update routes"
 
 # App Execution:
 input_msg = input_msg.lower()
