@@ -1,0 +1,469 @@
+directions,hidden,id,lat,lon,name,showDestinationSelector,route
+['12_0_var0'],False,BSTP34463,45.2540399,-66.09294,Lancaster Mall,True,12
+['12_0_var0'],False,BSTP34894,45.2532599,-66.09734,Fairville Blvd,True,12
+['12_0_var0'],False,BSTP34896,45.25203,-66.0999999,Westwind Place,True,12
+['12_0_var0'],False,BSTP34899,45.25036,-66.1019799,Fairville Blvd.,True,12
+['12_0_var0'],False,BSTP34901,45.2488399,-66.10381,Starbucks - Fairville Blvd.,True,12
+['12_0_var0'],False,BSTP34902,45.24691,-66.1072899,Fairville Blvd. & Kierstead Rd.,True,12
+['12_0_var1'],False,BSTP34904,45.2446999,-66.11092,Fairville Blvd.,True,12
+['12_0_var1'],False,BSTP34903,45.2468,-66.1069199,Pet Coral - Fairville Blvd.,True,12
+['12_0_var1'],False,BSTP34900,45.2487099,-66.10352,Fairville Blvd. Plaza,True,12
+['12_0_var1'],False,BSTP34898,45.2502899,-66.10166,Canadian Tire - Fairville Blvd.,True,12
+['12_0_var1'],False,BSTP34897,45.25175,-66.09998,Cox Communications,True,12
+['12_0_var1'],False,BSTP34463_ar,45.2540399,-66.09294,Lancaster Mall,True,12
+"['13_0_var1', '13_0_var0']",False,BSTP34461,45.2561799,-66.09459,572 Harding Street,True,13
+"['13_0_var1', '13_0_var0']",False,BSTP34462,45.25487,-66.0956799,630 Harding Street,True,13
+"['13_0_var1', '13_0_var0']",False,BSTP34463_ar,45.2540399,-66.09294,Lancaster Mall,True,13
+"['14_0_var0', '14_0_var3']",False,BSTP34904,45.2446999,-66.11092,Fairville Blvd.,True,14
+"['14_0_var0', '14_0_var3']",False,BSTP34903,45.2468,-66.1069199,Pet Coral - Fairville Blvd.,True,14
+"['14_0_var0', '14_0_var3']",False,BSTP34900,45.2487099,-66.10352,Fairville Blvd. Plaza,True,14
+"['14_0_var0', '14_0_var3']",False,BSTP34898,45.2502899,-66.10166,Canadian Tire - Fairville Blvd.,True,14
+"['14_0_var0', '14_0_var3']",False,BSTP34897,45.2517499,-66.09998,Cox Communications,True,14
+"['14_0_var0', '14_0_var3']",False,BSTP34463_ar,45.2540399,-66.09294,Lancaster Mall,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34463,45.2540399,-66.09294,Lancaster Mall,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34894,45.2532599,-66.09734,Fairville Blvd,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34896,45.25203,-66.0999999,Westwind Place,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34899,45.25036,-66.1019799,Fairville Blvd.,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34901,45.2488399,-66.10381,Starbucks - Fairville Blvd.,True,14
+"['14_0_var1', '14_0_var2']",False,BSTP34902,45.2469099,-66.10729,Fairville Blvd. & Kierstead Rd.,True,14
+['15A_0_var0'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,15A
+['15A_0_var0'],False,BSTP34432,45.2733599,-66.06009,King & Germain St.,True,15A
+['15A_0_var0'],False,BSTP34329,45.27295,-66.06288,City Hall,True,15A
+['15A_0_var0'],False,BSTP34542,45.2744299,-66.0649299,Mercantile Center,True,15A
+['15A_0_var0'],False,BSTP34435,45.2764599,-66.07079,Main Street North,True,15A
+['15A_0_var0'],False,BSTP34463_ar,45.2540399,-66.09294,Lancaster Mall,True,15A
+['15B_0_var0'],False,BSTP34325,45.2752799,-66.07541,Place 400,True,15B
+['15B_0_var0'],False,BSTP34444,45.27542,-66.0728899,Howard Johnsons Hotel,True,15B
+['15B_0_var0'],False,BSTP34436,45.27636,-66.0702599,600 Main Street North,True,15B
+['15B_0_var0'],False,BSTP34318,45.27375,-66.06493,Market Square,True,15B
+['15B_0_var0'],False,BSTP34433,45.27267,-66.0626099,Barbours General Store,True,15B
+['15B_0_var0'],False,BSTP34541,45.2731999,-66.06007,Tim Horton's - King St.,True,15B
+['15B_0_var0'],False,BSTP34321_ar,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,15B
+['20_0_var0'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,20
+['20_0_var0'],False,BSTP34321,45.2729999,-66.0588499,Royal Bank - Charlotte St.,True,20
+['20_0_var0'],False,BSTP34331,45.2747499,-66.0572599,Golden Ball - Sydney Street,True,20
+['20_0_var1'],False,BSTP34696,45.28169,-66.0518,Hotel Courtney Bay,True,20
+['20_0_var1'],False,BSTP34698,45.2803999,-66.05183,Crown Street,True,20
+['20_0_var1'],False,BSTP34693,45.2787399,-66.05189,Boys & Girls Club - Crown St.,True,20
+['20_0_var1'],False,BSTP34337,45.27652,-66.0512499,Prince Charles School - Union St.,True,20
+['20_0_var1'],False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,20
+['20_0_var1'],False,BSTP34332,45.2744299,-66.05747,Sydney St. & King's Square North,True,20
+['20_0_var1'],False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,20
+['21_0_var0'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,21
+"['21_0_var2', '21_0_var1']",False,BSTP34332,45.27443,-66.0574699,Sydney St. & King's Square North,True,21
+"['21_0_var2', '21_0_var1']",False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,21
+"['23_0_var0', '23_0_var2']",False,BSTP34594,45.2860999,-66.07883,Churchill Blvd.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34596,45.2844799,-66.0784299,Churchill Blvd. & Phillip Crt.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP35208,45.28271,-66.0782999,Churchill Blvd. & Memorial Crt.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34597,45.28055,-66.0781999,Churchill Blvd. & Veteran's Crt.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34548,45.27988,-66.07778,Sobeys - Visart St.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34546,45.2796399,-66.0767699,Lansdowne Avenue,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34601,45.27787,-66.0768699,Tim Horton's - Lansdowne Ave.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34325,45.2752799,-66.07541,Place 400,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34444,45.27542,-66.07289,Howard Johnsons Hotel,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34436,45.27636,-66.0702599,600 Main Street North,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34318,45.2737499,-66.0649299,Market Square,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34433,45.27267,-66.0626099,Barbours General Store,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34541,45.2732,-66.0600699,Tim Horton's - King St.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34321,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34429,45.2769899,-66.0550099,95 Prince Edward Street,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34430,45.27576,-66.0563299,15 Prince Edward Street,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34332,45.27443,-66.0574699,Sydney St. & King's Square North,True,23
+"['23_0_var0', '23_0_var2']",False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,23
+['23_0_var1'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,23
+['23_0_var1'],False,BSTP34432,45.2733599,-66.0600899,King & Germain St.,True,23
+['23_0_var1'],False,BSTP34329,45.2729499,-66.0628799,City Hall,True,23
+['23_0_var1'],False,BSTP34542,45.27443,-66.06493,Mercantile Center,True,23
+['23_0_var1'],False,BSTP34435,45.2764599,-66.07079,Main Street North,True,23
+['23_0_var1'],False,BSTP34437,45.2753799,-66.07661,McDonalds ( 399 Main Street North ),True,23
+['23_0_var1'],False,BSTP34600,45.27781,-66.07667,86 Lansdowne Avenue,True,23
+"['25_0_var1', '25_0_var0']",False,BSTP34431,45.2741999,-66.05849,King's Square North,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34432,45.2733599,-66.06009,King & Germain St.,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34329,45.2729499,-66.0628799,City Hall,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34435,45.2764599,-66.07079,Main Street North,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34437,45.2753799,-66.07661,McDonalds ( 399 Main Street North ),True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34600,45.27781,-66.07667,86 Lansdowne Avenue,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34545,45.2795699,-66.07652,146 Lansdowne Avenue,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34558,45.2857499,-66.0893399,302 Millidge Avenue,True,25
+"['25_0_var1', '25_0_var0']",False,BSTP34582,45.2872599,-66.09104,332 Millidge Avenue,True,25
+['25_0_var0'],False,BSTP34565,45.2936499,-66.09529,University & Millidge Ave.,True,25
+['25_0_var0'],False,BSTP34583,45.29395,-66.09343,University Ave. & Candlewood Ln.,True,25
+['25_0_var0'],False,BSTP34567,45.2951599,-66.09108,University Avenue,True,25
+['25_0_var0'],False,BSTP34585,45.29636,-66.08847,University Ave. & Polaris Crt.,True,25
+['25_0_var0'],False,BSTP34568,45.29701,-66.0868799,University Ave. & Christopher Crt.,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34577,45.3068599,-66.08601,Student Hall -  UNBSJ,True,25
+['25_0_var2'],False,BSTP34574,45.3015899,-66.08518,Regional Hospital,True,25
+['25_0_var2'],False,BSTP34571,45.3001099,-66.08442,University Avenue,True,25
+['25_0_var2'],False,BSTP34569,45.2970199,-66.0874,University Avenue,True,25
+['25_0_var2'],False,BSTP34586,45.2965699,-66.08849,University Ave. & Royal Parkway,True,25
+['25_0_var2'],False,BSTP34566,45.2953099,-66.09127,University Ave. & Woodhaven Dr.,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34563,45.2908799,-66.0947799,531 Millidge Avenue,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34561,45.28781,-66.09178,Millidge Avenue,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34548,45.27988,-66.07778,Sobeys - Visart St.,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34546,45.2796399,-66.0767699,Lansdowne Avenue,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34601,45.27787,-66.0768699,Tim Horton's - Lansdowne Ave.,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34325,45.2752799,-66.07541,Place 400,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34444,45.27542,-66.07289,Howard Johnsons Hotel,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34436,45.27636,-66.0702599,600 Main Street North,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34318,45.27375,-66.0649299,Market Square,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34433,45.27267,-66.06261,Barbours General Store,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34541,45.2732,-66.06007,Tim Horton's - King St.,True,25
+"['25_0_var3', '25_0_var2']",False,BSTP34321_ar,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,25
+"['30_0_var0', '30_0_var3']",False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,30
+"['30_0_var0', '30_0_var3']",False,BSTP35046,45.3097299,-66.01616,Westmorland Road,True,30
+"['30_0_var2', '30_0_var1']",False,BSTP35047,45.30986,-66.0164499,Westmorland Road,True,30
+"['30_0_var2', '30_0_var1']",False,BSTP34387,45.30748,-66.0184499,Walmart - Westmorland Rd.,True,30
+"['30_0_var2', '30_0_var1']",False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,30
+['31_0_var0'],False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,31
+['31_0_var1'],False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,31
+['32_0_var0'],False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,32
+['32_0_var0'],False,BSTP35046,45.3097299,-66.01616,Westmorland Road,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35021,45.30843,-65.97873,McNamara Dr. & Summit Dr.,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35022,45.3122899,-65.9816999,174 McNamara Drive,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35023,45.31428,-65.9842799,16 Bing Avenue,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35024,45.3158499,-65.9857599,30 David Street,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35026,45.3170699,-65.98305,Willie Ave. & Lakeview Dr.,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35027,45.3144099,-65.9810299,255 Lakeview Drive,True,32
+"['32_0_var0', '32_0_var1']",False,BSTP35028,45.31158,-65.97872,87 Lakeview Drive,True,32
+['32_0_var1'],False,BSTP35047,45.3098599,-66.01645,Westmorland Road,True,32
+['32_0_var1'],False,BSTP34387,45.3074799,-66.0184499,Walmart - Westmorland Rd.,True,32
+['32_0_var1'],False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,32
+['33_0_var0'],False,BSTP35026,45.3170699,-65.98305,Willie Ave. & Lakeview Dr.,True,33
+['33_0_var0'],False,BSTP35027,45.3144099,-65.9810299,255 Lakeview Drive,True,33
+['33_0_var0'],False,BSTP35028,45.31158,-65.97872,87 Lakeview Drive,True,33
+['33_0_var0'],False,BSTP34350,45.2894799,-66.03327,Loch Lomond Villa - Loch Lomond Road,True,33
+['33_0_var0'],False,BSTP35223,45.2888699,-66.03587,145 Loch Lomond Road,True,33
+['33_0_var0'],False,BSTP34337,45.27652,-66.0512499,Prince Charles School - Union St.,True,33
+['33_0_var0'],False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,33
+['33_0_var0'],False,BSTP34332,45.2744299,-66.05747,Sydney St. & King's Square North,True,33
+['33_0_var0'],False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,33
+['33_0_var1'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,33
+['33_0_var1'],False,BSTP34321,45.2729999,-66.0588499,Royal Bank - Charlotte St.,True,33
+['33_0_var1'],False,BSTP34331,45.27475,-66.05726,Golden Ball - Sydney Street,True,33
+['33_0_var1'],False,BSTP34333,45.27562,-66.0553499,300 Union Street,True,33
+['33_0_var1'],False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,33
+['33_0_var1'],False,BSTP34353,45.28822,-66.0383899,94 Loch Lomond Road,True,33
+['33_0_var1'],False,BSTP35224,45.28866,-66.0357999,Loch Lomond Rd. & Jean St.,True,33
+['33_0_var1'],False,BSTP35021,45.30843,-65.97873,McNamara Dr. & Summit Dr.,True,33
+['33_0_var1'],False,BSTP35022,45.31229,-65.9817,174 McNamara Drive,True,33
+['33_0_var1'],False,BSTP35023,45.31428,-65.9842799,16 Bing Avenue,True,33
+['33_0_var1'],False,BSTP35024,45.3158499,-65.9857599,30 David Street,True,33
+['34_0_var1'],False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,34
+['51_0_var0'],False,BSTP34696,45.28169,-66.0518,Hotel Courtney Bay,True,51
+['51_0_var0'],False,BSTP34698,45.2804,-66.0518299,Crown Street,True,51
+['51_0_var0'],False,BSTP34693,45.2787399,-66.0518899,Boys & Girls Club - Crown St.,True,51
+['51_0_var0'],False,BSTP34337,45.27652,-66.0512499,Prince Charles School - Union St.,True,51
+['51_0_var0'],False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,51
+['51_0_var0'],False,BSTP34332,45.27443,-66.05747,Sydney St. & King's Square North,True,51
+['51_0_var0'],False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,51
+['51_0_var1'],False,BSTP34431,45.2741999,-66.05849,King's Square North,True,51
+['51_0_var1'],False,BSTP34321,45.273,-66.0588499,Royal Bank - Charlotte St.,True,51
+['51_0_var1'],False,BSTP34331,45.2747499,-66.05726,Golden Ball - Sydney Street,True,51
+['51_0_var1'],False,BSTP34333,45.27562,-66.0553499,300 Union Street,True,51
+['51_0_var1'],False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,51
+"['52_0_var3', '52_0_var2', '52_0_var1', '52_0_var0']",False,BSTP35125,45.4085499,-65.96766,Arts & Culture Park - Quispamsis,True,52
+['52_0_var0'],False,BSTP34696,45.28169,-66.0518,Hotel Courtney Bay,True,52
+['52_0_var0'],False,BSTP34698,45.2803999,-66.05183,Crown Street,True,52
+['52_0_var0'],False,BSTP34693,45.27874,-66.0518899,Boys & Girls Club - Crown St.,True,52
+['52_0_var0'],False,BSTP34337,45.27652,-66.0512499,Prince Charles School - Union St.,True,52
+['52_0_var0'],False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,52
+['52_0_var0'],False,BSTP34332,45.2744299,-66.05747,Sydney St. & King's Square North,True,52
+['52_0_var0'],False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34431,45.2741999,-66.05849,King's Square North,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34321,45.2729999,-66.0588499,Royal Bank - Charlotte St.,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34331,45.2747499,-66.05726,Golden Ball - Sydney Street,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34333,45.2756199,-66.05535,300 Union Street,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP34697,45.28187,-66.05155,Crown Street,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35130,45.3474299,-66.01782,Kennebecasis Park,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35132,45.3710199,-66.00979,Riverside Golf Club,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35133,45.3898899,-65.99703,Church St. & Gondola Point Rd.,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35134,45.3936099,-65.98712,Rothesay Arena,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35135,45.4049399,-65.96986,Lila Court,True,52
+"['52_0_var3', '52_0_var2', '52_0_var1']",False,BSTP35124_ar,45.4213699,-65.9515,Kennebecasis United Baptist Church - Quispamsis,True,52
+"['53_0_var0', '53_0_var2']",False,BSTP34431,45.2741999,-66.05849,King's Square North,True,53
+"['53_0_var0', '53_0_var2']",False,BSTP34321,45.273,-66.0588499,Royal Bank - Charlotte St.,True,53
+"['53_0_var0', '53_0_var2']",False,BSTP34331,45.2747499,-66.05726,Golden Ball - Sydney Street,True,53
+"['53_0_var0', '53_0_var2']",False,BSTP34333,45.27562,-66.0553499,300 Union Street,True,53
+"['53_0_var0', '53_0_var2']",False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,53
+"['53_0_var1', '53_0_var3']",False,BSTP34696,45.28169,-66.0518,Hotel Courtney Bay,True,53
+"['53_0_var1', '53_0_var3']",False,BSTP34698,45.2803999,-66.0518299,Crown Street,True,53
+"['53_0_var1', '53_0_var3']",False,BSTP34693,45.2787399,-66.0518899,Boys & Girls Club - Crown St.,True,53
+"['53_0_var1', '53_0_var3']",False,BSTP34337,45.2765199,-66.05125,Prince Charles School - Union St.,True,53
+"['53_0_var1', '53_0_var3']",False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,53
+['53_0_var3'],False,BSTP34431_ar,45.2741999,-66.05849,King's Square North,True,53
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34388,45.30518,-66.01873,Consumers Dr. (across from Shoppers Drug Mart),True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34382,45.3040999,-66.021,400 Westmorland Road,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34381,45.30253,-66.0228499,Depot Crt. & Westmorland Rd.,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34378,45.3017099,-66.0238599,Retail & Westmorland,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP35269,45.3025,-66.02528,Retail Drive (across from East Point Shopping Centre ),True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP35417,45.30304,-66.0284599,East Point Shopping Center,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP35270,45.30444,-66.02639,Retail Drive (across from Costco),True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP35271,45.30722,-66.02833,Retail Dr. & Gull St.,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34523,45.3069899,-66.03179,Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var0']",False,BSTP34525,45.3050299,-66.03336,428 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34405,45.30439,-66.0338899,411 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34528,45.30328,-66.0347899,401 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34530,45.30033,-66.0371899,347 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34532,45.2976199,-66.0393499,327 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34535,45.2956999,-66.04096,305 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34410,45.2948399,-66.0416899,283 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34412,45.29317,-66.0423299,255 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34415,45.2909299,-66.04324,223 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34417,45.28883,-66.0456699,Brett's - 195 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34537,45.2876099,-66.0471,175 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34419,45.28608,-66.0488499,125 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34421,45.2851999,-66.0498899,55 Rothesay Avenue,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34423,45.2822099,-66.05345,Foot Of Waterloo Street ( Westbound ),True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34425,45.28025,-66.0546899,Service Canada - Waterloo Street,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34426,45.2787299,-66.05562,Cathedral Church,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34429,45.2769899,-66.0550099,95 Prince Edward Street,True,1A
+"['1A_0_var3', '1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34430,45.2757599,-66.0563299,15 Prince Edward Street,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP35180,45.2741099,-66.05897,King's Square North,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34432,45.2733599,-66.06009,King & Germain St.,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34329,45.2729499,-66.06288,City Hall,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34542,45.2744299,-66.06493,Mercantile Center,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34435,45.2764599,-66.07079,Main Street North,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34437,45.2753799,-66.07661,McDonalds ( 399 Main Street North ),True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34326,45.2750599,-66.0784799,Douglas Ave. & Main St. North,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34442,45.2737499,-66.07922,65 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34503,45.2719899,-66.08064,141 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34446,45.2703599,-66.08144,207 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34448,45.26874,-66.0819499,N.B. Museum - Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34505,45.2675,-66.0823599,297 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34449,45.2655199,-66.08336,Harbourview High School,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34451,45.2638599,-66.08417,335 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34454,45.2612199,-66.0849899,411 Douglas Avenue,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34456,45.2583199,-66.08986,Bridge & Mill Rd.,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34466,45.25671,-66.0925199,Simms Corner,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34461,45.2561799,-66.09459,572 Harding Street,True,1A
+"['1A_0_var1', '1A_0_var2', '1A_0_var0']",False,BSTP34462,45.25487,-66.0956799,630 Harding Street,True,1A
+"['1A_0_var2', '1A_0_var0']",False,BSTP34463,45.2540399,-66.09294,Lancaster Mall,True,1A
+"['1A_0_var2', '1A_0_var0']",False,BSTP34894,45.2532599,-66.09734,Fairville Blvd,True,1A
+"['1A_0_var2', '1A_0_var0']",False,BSTP34896,45.25203,-66.0999999,Westwind Place,True,1A
+"['1A_0_var2', '1A_0_var0']",False,BSTP34899,45.25036,-66.1019799,Fairville Blvd.,True,1A
+['1A_0_var1'],False,BSTP34463_ar,45.2540399,-66.09294,Lancaster Mall,True,1A
+"['1B_0_var2', '1B_0_var3', '1B_0_var0']",False,BSTP35272,45.2483299,-66.10278,Fairville Blvd. Plaza,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var0']",False,BSTP35273,45.2488899,-66.1025,Sobeys,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var0']",False,BSTP34898,45.2502899,-66.10166,Canadian Tire - Fairville Blvd.,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var0']",False,BSTP34897,45.25175,-66.09998,Cox Communications,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34463,45.2540399,-66.09294,Lancaster Mall,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34458,45.25677,-66.09217,Simms Corner (Eastbound),True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34455,45.25831,-66.08912,Reversing Falls Restaurant,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34453,45.2611799,-66.0848,500 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34452,45.2636599,-66.08403,422 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34450,45.2657199,-66.08297,346 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34504,45.2673699,-66.08229,292 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34447,45.2688299,-66.08178,270 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34445,45.2705799,-66.08113,Douglas Ave. & Alexandra St.,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34502,45.27193,-66.08043,156 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34328,45.27388,-66.0789499,80 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34327,45.27478,-66.0784599,6 Douglas Avenue,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34325,45.2752799,-66.07541,Place 400,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34444,45.27542,-66.0728899,Howard Johnsons Hotel,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34436,45.27636,-66.07026,600 Main Street North,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34318,45.27375,-66.06493,Market Square,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34433,45.27267,-66.0626099,Barbours General Store,True,1B
+"['1B_0_var2', '1B_0_var3', '1B_0_var1', '1B_0_var0']",False,BSTP34541,45.2732,-66.06007,Tim Horton's - King St.,True,1B
+"['1B_0_var1', '1B_0_var0']",False,BSTP34321,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,1B
+"['1B_0_var1', '1B_0_var0']",False,BSTP34331,45.27475,-66.05726,Golden Ball - Sydney Street,True,1B
+"['1B_0_var1', '1B_0_var0']",False,BSTP34380,45.3025299,-66.0227,Westmorland Road ( across from Depot Crt. ),True,1B
+"['1B_0_var1', '1B_0_var0']",False,BSTP35275,45.30472,-66.02,403 Westmorland Rd.,True,1B
+"['1B_0_var1', '1B_0_var0']",False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,1B
+"['1B_0_var2', '1B_0_var3']",False,BSTP34321_ar,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,1B
+"['3A_0_var1', '3A_0_var0']",False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34388,45.3051799,-66.01873,Consumers Dr. (across from Shoppers Drug Mart),True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34382,45.3041,-66.0209999,400 Westmorland Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34381,45.3025299,-66.02285,Depot Crt. & Westmorland Rd.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34378,45.3017099,-66.02386,Retail & Westmorland,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34377,45.30029,-66.02564,Indigo - East Point Shopping Center,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34375,45.2992899,-66.0282299,294 Westmorland Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34373,45.2982499,-66.0278,506 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34371,45.2969499,-66.02863,480 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34369,45.2950099,-66.0292799,414 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34367,45.29349,-66.0302699,324 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34365,45.2925,-66.0315399,276 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34363,45.2915599,-66.033,220 Ellerdale Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34360,45.2915699,-66.0348099,15 Kilburn Ave.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34358,45.2917899,-66.03646,148 Westmorland Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34357,45.28991,-66.0390399,70 Westmorland Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34355,45.28771,-66.0406699,20 Westmorland Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34353,45.28822,-66.0383899,94 Loch Lomond Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP35224,45.28866,-66.0358,Loch Lomond Rd. & Jean St.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34351,45.28896,-66.03427,168 Loch Lomond Road,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34348,45.2891499,-66.0297299,90 McDonald Street,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34347,45.28811,-66.02876,Sitel,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34346,45.2854999,-66.02812,Park Ave. & Virginia St.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34516,45.2847899,-66.02987,Park Ave. & Alma St. East,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34344,45.28333,-66.0335899,Park Ave. & Wilton St.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34342,45.2826299,-66.03541,Park Ave. & Belgrave St.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34338,45.2808699,-66.03636,19 Mount Pleasant Avenue,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34337,45.2765199,-66.0512499,Prince Charles School - Union St.,True,3A
+"['3A_0_var1', '3A_0_var0']",False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,3A
+['3A_0_var0'],False,BSTP34320,45.2741499,-66.05875,King's Square North,True,3A
+['3A_0_var0'],False,BSTP34432,45.2733599,-66.0600899,King & Germain St.,True,3A
+['3A_0_var0'],False,BSTP34329,45.2729499,-66.0628799,City Hall,True,3A
+['3A_0_var0'],False,BSTP34542,45.27443,-66.06493,Mercantile Center,True,3A
+['3A_0_var0'],False,BSTP34435,45.27646,-66.0707899,Main Street North,True,3A
+['3A_0_var0'],False,BSTP34437,45.2753799,-66.07661,McDonalds ( 399 Main Street North ),True,3A
+['3A_0_var0'],False,BSTP34600,45.27781,-66.07667,86 Lansdowne Avenue,True,3A
+['3A_0_var0'],False,BSTP34545,45.27957,-66.07652,146 Lansdowne Avenue,True,3A
+['3A_0_var0'],False,BSTP34558,45.2857499,-66.0893399,302 Millidge Avenue,True,3A
+['3A_0_var0'],False,BSTP34582,45.28726,-66.09104,332 Millidge Avenue,True,3A
+['3A_0_var0'],False,BSTP34562,45.2907999,-66.09439,Millidge Avenue,True,3A
+['3A_0_var0'],False,BSTP34565,45.2936499,-66.09529,University & Millidge Ave.,True,3A
+['3A_0_var0'],False,BSTP34583,45.29395,-66.09343,University Ave. & Candlewood Ln.,True,3A
+['3A_0_var0'],False,BSTP34567,45.2951599,-66.09108,University Avenue,True,3A
+['3A_0_var0'],False,BSTP34585,45.29636,-66.0884699,University Ave. & Polaris Crt.,True,3A
+['3A_0_var0'],False,BSTP34568,45.29701,-66.08688,University Ave. & Christopher Crt.,True,3A
+['3A_0_var0'],False,BSTP34570,45.3002,-66.08383,University Ave. & Varsity St.,True,3A
+['3A_0_var0'],False,BSTP34573,45.3015299,-66.08504,Regional Hospital Northbound,True,3A
+['3A_0_var0'],False,BSTP34577_ar,45.3068599,-66.08601,Student Hall -  UNBSJ,True,3A
+"['3B_0_var0', '3B_0_var1']",False,BSTP34577,45.3068599,-66.08601,Student Hall -  UNBSJ,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34578,45.30483,-66.08543,Annex - UNBSJ,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34574,45.3015899,-66.08518,Regional Hospital,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34571,45.30011,-66.0844199,University Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34569,45.2970199,-66.0874,University Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34586,45.2965699,-66.08849,University Ave. & Royal Parkway,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34566,45.29531,-66.0912699,University Ave. & Woodhaven Dr.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34584,45.29444,-66.0929199,Gorman Arena - University Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34564,45.2934999,-66.09612,Millidge & Woodward Ave.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34563,45.29088,-66.09478,531 Millidge Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34561,45.28781,-66.09178,Millidge Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34548,45.27988,-66.07778,Sobeys - Visart St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34546,45.27964,-66.0767699,Lansdowne Avenue,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34601,45.2778699,-66.0768699,Tim Horton's - Lansdowne Ave.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34325,45.2752799,-66.07541,Place 400,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34444,45.27542,-66.07289,Howard Johnsons Hotel,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34436,45.27636,-66.0702599,600 Main Street North,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34318,45.27375,-66.0649299,Market Square,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34433,45.27267,-66.0626099,Barbours General Store,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34541,45.2732,-66.0600699,Tim Horton's - King St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34321,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34331,45.27475,-66.05726,Golden Ball - Sydney Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34333,45.27562,-66.05535,300 Union Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34339,45.28163,-66.03745,Stella Maris Church - Bayside Drive,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34341,45.28245,-66.0356499,Park Ave & Belgrave St. ( Eastbound ),True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34343,45.28325,-66.0335699,Park Ave. & Wilton St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34517,45.2839199,-66.0318,Park Ave. & Belmont St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34515,45.2846599,-66.02996,Park Ave. & Alma St. East,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34345,45.2854299,-66.028,Park Ave. & Virginia St ( Eastbound ),True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34349,45.28862,-66.02901,Saint John Transit,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34350,45.28948,-66.0332699,Loch Lomond Villa - Loch Lomond Road,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP35223,45.28887,-66.0358699,145 Loch Lomond Road,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34354,45.2883099,-66.03859,79 Loch Lomond Road,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34352,45.28809,-66.04061,Loch Lomond & Westmorland Rd.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34359,45.2920299,-66.0353599,Westmorland Rd. & Kilburn Ave.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34361,45.29109,-66.03455,Kilburn Ave. & Ellerdale St.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34362,45.29151,-66.0328099,219 Ellerdale Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34364,45.29239,-66.03146,Ellerdale Street - Playground,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34366,45.29341,-66.0301599,333 Ellerdale Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34368,45.2949,-66.02917,411 Ellerdale Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34370,45.29687,-66.02852,Woodhollow Park,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34372,45.29828,-66.02757,509 Ellerdale Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34374,45.29919,-66.02811,303 Ellerdale Street,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34376,45.3001299,-66.02572,Westmorland Rd,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34379,45.3016599,-66.02369,Westmorland Road,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34380,45.3025299,-66.0227,Westmorland Road ( across from Depot Crt. ),True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP35275,45.30472,-66.02,403 Westmorland Rd.,True,3B
+"['3B_0_var0', '3B_0_var1']",False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,3B
+"['9A_0_var1', '9A_0_var0']",False,BSTP34391,45.3058299,-66.01729,McAllister Place,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34388,45.3051799,-66.01873,Consumers Dr. (across from Shoppers Drug Mart),True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34382,45.3041,-66.0209999,400 Westmorland Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34381,45.3025299,-66.02285,Depot Crt. & Westmorland Rd.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34378,45.3017099,-66.02386,Retail & Westmorland,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34377,45.30029,-66.02564,Indigo - East Point Shopping Center,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34375,45.2992899,-66.0282299,294 Westmorland Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34373,45.2982499,-66.0278,506 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34371,45.2969499,-66.02863,480 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34369,45.2950099,-66.0292799,414 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34367,45.29349,-66.0302699,324 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34365,45.2925,-66.0315399,276 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34363,45.2915599,-66.033,220 Ellerdale Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34360,45.2915699,-66.0348099,15 Kilburn Ave.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34358,45.2917899,-66.03646,148 Westmorland Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34357,45.28991,-66.0390399,70 Westmorland Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34355,45.28771,-66.0406699,20 Westmorland Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34353,45.28822,-66.0383899,94 Loch Lomond Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP35224,45.28866,-66.0358,Loch Lomond Rd. & Jean St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34351,45.28896,-66.03427,168 Loch Lomond Road,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34348,45.2891499,-66.0297299,90 McDonald Street,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34347,45.28811,-66.02876,Sitel,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34346,45.2854999,-66.02812,Park Ave. & Virginia St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34516,45.2847899,-66.02987,Park Ave. & Alma St. East,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34344,45.28333,-66.0335899,Park Ave. & Wilton St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34342,45.2826299,-66.03541,Park Ave. & Belgrave St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34338,45.2808699,-66.03636,19 Mount Pleasant Avenue,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34337,45.2765199,-66.0512499,Prince Charles School - Union St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34334,45.2760399,-66.05399,Giant Tiger - Prince Edward Square,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34332,45.2744299,-66.0574699,Sydney St. & King's Square North,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34320,45.2741499,-66.05875,King's Square North,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34432,45.2733599,-66.06009,King & Germain St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34329,45.2729499,-66.0628799,City Hall,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34542,45.2744299,-66.06493,Mercantile Center,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34435,45.2764599,-66.07079,Main Street North,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34437,45.2753799,-66.07661,McDonalds ( 399 Main Street North ),True,9A
+['9A_0_var0'],False,BSTP34600,45.27781,-66.07667,86 Lansdowne Avenue,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34545,45.2795699,-66.07652,146 Lansdowne Avenue,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34562,45.2907999,-66.09439,Millidge Avenue,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34565,45.2936499,-66.09529,University & Millidge Ave.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34583,45.29395,-66.0934299,University Ave. & Candlewood Ln.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34567,45.2951599,-66.09108,University Avenue,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34585,45.29636,-66.0884699,University Ave. & Polaris Crt.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34568,45.2970099,-66.08688,University Ave. & Christopher Crt.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34570,45.3002,-66.08383,University Ave. & Varsity St.,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34573,45.3015299,-66.08504,Regional Hospital Northbound,True,9A
+"['9A_0_var1', '9A_0_var0']",False,BSTP34577_ar,45.3068599,-66.08601,Student Hall -  UNBSJ,True,9A
+['9B_0_var0'],False,BSTP34577,45.3068599,-66.08601,Student Hall -  UNBSJ,True,9B
+['9B_0_var0'],False,BSTP34578,45.30483,-66.0854299,Annex - UNBSJ,True,9B
+['9B_0_var0'],False,BSTP34574,45.3015899,-66.08518,Regional Hospital,True,9B
+['9B_0_var0'],False,BSTP34571,45.30011,-66.0844199,University Avenue,True,9B
+['9B_0_var0'],False,BSTP34569,45.29702,-66.0873999,University Avenue,True,9B
+['9B_0_var0'],False,BSTP34586,45.29657,-66.0884899,University Ave. & Royal Parkway,True,9B
+['9B_0_var0'],False,BSTP34566,45.2953099,-66.09127,University Ave. & Woodhaven Dr.,True,9B
+['9B_0_var0'],False,BSTP34584,45.29444,-66.0929199,Gorman Arena - University Avenue,True,9B
+['9B_0_var0'],False,BSTP34564,45.2934999,-66.09612,Millidge & Woodward Ave.,True,9B
+['9B_0_var0'],False,BSTP34594,45.2860999,-66.07883,Churchill Blvd.,True,9B
+['9B_0_var0'],False,BSTP34596,45.28448,-66.07843,Churchill Blvd. & Phillip Crt.,True,9B
+['9B_0_var0'],False,BSTP35208,45.2827099,-66.0782999,Churchill Blvd. & Memorial Crt.,True,9B
+['9B_0_var0'],False,BSTP34597,45.28055,-66.0781999,Churchill Blvd. & Veteran's Crt.,True,9B
+['9B_0_var0'],False,BSTP34548,45.27988,-66.0777799,Sobeys - Visart St.,True,9B
+['9B_0_var0'],False,BSTP34546,45.2796399,-66.0767699,Lansdowne Avenue,True,9B
+['9B_0_var0'],False,BSTP34601,45.27787,-66.0768699,Tim Horton's - Lansdowne Ave.,True,9B
+['9B_0_var0'],False,BSTP34325,45.2752799,-66.07541,Place 400,True,9B
+['9B_0_var0'],False,BSTP34444,45.27542,-66.07289,Howard Johnsons Hotel,True,9B
+['9B_0_var0'],False,BSTP34436,45.27636,-66.07026,600 Main Street North,True,9B
+['9B_0_var0'],False,BSTP34318,45.27375,-66.0649299,Market Square,True,9B
+['9B_0_var0'],False,BSTP34433,45.27267,-66.06261,Barbours General Store,True,9B
+['9B_0_var0'],False,BSTP34541,45.2732,-66.06007,Tim Horton's - King St.,True,9B
+['9B_0_var0'],False,BSTP34321,45.2729999,-66.05885,Royal Bank - Charlotte St.,True,9B
+['9B_0_var0'],False,BSTP34331,45.27475,-66.05726,Golden Ball - Sydney Street,True,9B
+['9B_0_var0'],False,BSTP34333,45.27562,-66.05535,300 Union Street,True,9B
+['9B_0_var0'],False,BSTP34335,45.27608,-66.0526199,Union St & Pitt St.,True,9B
+['9B_0_var0'],False,BSTP34339,45.28163,-66.03745,Stella Maris Church - Bayside Drive,True,9B
+['9B_0_var0'],False,BSTP34341,45.28245,-66.0356499,Park Ave & Belgrave St. ( Eastbound ),True,9B
+['9B_0_var0'],False,BSTP34343,45.28325,-66.0335699,Park Ave. & Wilton St.,True,9B
+['9B_0_var0'],False,BSTP34517,45.2839199,-66.0318,Park Ave. & Belmont St.,True,9B
+['9B_0_var0'],False,BSTP34515,45.2846599,-66.02996,Park Ave. & Alma St. East,True,9B
+['9B_0_var0'],False,BSTP34345,45.2854299,-66.028,Park Ave. & Virginia St ( Eastbound ),True,9B
+['9B_0_var0'],False,BSTP34349,45.28862,-66.02901,Saint John Transit,True,9B
+['9B_0_var0'],False,BSTP34350,45.28948,-66.0332699,Loch Lomond Villa - Loch Lomond Road,True,9B
+['9B_0_var0'],False,BSTP35223,45.28887,-66.0358699,145 Loch Lomond Road,True,9B
+['9B_0_var0'],False,BSTP34354,45.2883099,-66.03859,79 Loch Lomond Road,True,9B
+['9B_0_var0'],False,BSTP34352,45.28809,-66.04061,Loch Lomond & Westmorland Rd.,True,9B
+['9B_0_var0'],False,BSTP34359,45.2920299,-66.0353599,Westmorland Rd. & Kilburn Ave.,True,9B
+['9B_0_var0'],False,BSTP34361,45.29109,-66.03455,Kilburn Ave. & Ellerdale St.,True,9B
+['9B_0_var0'],False,BSTP34362,45.29151,-66.0328099,219 Ellerdale Street,True,9B
+['9B_0_var0'],False,BSTP34364,45.29239,-66.03146,Ellerdale Street - Playground,True,9B
+['9B_0_var0'],False,BSTP34366,45.29341,-66.0301599,333 Ellerdale Street,True,9B
+['9B_0_var0'],False,BSTP34368,45.2949,-66.02917,411 Ellerdale Street,True,9B
+['9B_0_var0'],False,BSTP34370,45.29687,-66.02852,Woodhollow Park,True,9B
+['9B_0_var0'],False,BSTP34372,45.29828,-66.02757,509 Ellerdale Street,True,9B
+['9B_0_var0'],False,BSTP34374,45.29919,-66.02811,303 Ellerdale Street,True,9B
+['9B_0_var0'],False,BSTP34376,45.3001299,-66.02572,Westmorland Rd,True,9B
+['9B_0_var0'],False,BSTP34379,45.3016599,-66.02369,Westmorland Road,True,9B
+['9B_0_var0'],False,BSTP34380,45.3025299,-66.0227,Westmorland Road ( across from Depot Crt. ),True,9B
+['9B_0_var0'],False,BSTP35275,45.30472,-66.02,403 Westmorland Rd.,True,9B
+['9B_0_var0'],False,BSTP34391_ar,45.3058299,-66.01729,McAllister Place,True,9B

@@ -1,0 +1,6 @@
+[
+    { "tag": "to work", "template": "home-to-work" },
+    { "tag": "from home", "template": "home-to-work" },
+    { "tag": "to home", "template": "work-to-home" },
+    { "tag": "from work", "template": "work-to-home" } 
+]
