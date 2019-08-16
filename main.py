@@ -1,16 +1,38 @@
 import requests, json, time, pandas as pd
 
+'''
+## Todo:
+1. Pull the API key in a defined frequency
+2. Generate stops master in a defined frequency
+'''
+
+retry_count = 1
+
 # Functions
-def get_api_key():
+def refresh_api_key(output_file):
     try:
         r = requests.get('http://nextbus.com/').text
     except Exception:
         return 'Unable to contact the server'
     try:
         pos = r.find('?key=')
-        return r[pos+5:pos+37]
+        api_key = r[pos+5:pos+37]
+        write_api_key(output_file, api_key)
+        return api_key
     except Exception:
         return 'Unable to find the API key'
+
+def read_api_key(filename):
+    return open(filename, 'r').read()
+
+def write_api_key(filename, api_key):
+    try:
+        f = open(filename, 'w')
+        f.write(api_key)
+        f.close()
+        return 'success'
+    except Exception as e:
+        return 'Error: ' + str(e)
 
 def generate_stops_master():
     try:
@@ -37,39 +59,6 @@ def generate_stops_master():
         
     except Exception as e:
         return "Oh-oh! I had the following error while trying to refresh: " + str(e)
-
-
-def nextbus_api(endpoint, as_dataframe=True):
-    api_key = get_api_key()
-
-    if len(api_key) is not 32:
-        # API error
-        return api_key
-    else:
-        # Payload
-        headers = {"Referer": "http://www.nextbus.com/"}
-        params = {"key": api_key, "timestamp": int(time.time())}
-
-        # Request
-        try:
-            response = requests.get(endpoint, headers=headers, params=params)
-            response = json.loads(response.text)
-            if as_dataframe:
-                try:
-                    df = pd.DataFrame(response)
-                except ValueError:
-                    df = pd.DataFrame.from_dict(response, orient='index')
-                if len(df) == 1:
-                    response = response[0]
-                    if 'values' in response:
-                        return pd.DataFrame.from_dict(response['values'])
-                    else:
-                        return pd.DataFrame.from_dict(response)
-                else:
-                    return pd.DataFrame({"minutes":[row[0]['minutes'] for row in df['values'].tolist()]})
-            return response
-        except Exception as e:
-            return 'API error: '+e
 
 def get_api_url(base_url, params):
     for param in params:
@@ -134,15 +123,77 @@ def process_input(input_msg):
         else:
             return "Sorry, I couldn't find a template from your message. Could you repeat that?"
 
-# App Config:
-endpoints = json.loads(open('endpoints.json', 'r').read())
-trips = json.loads(open('trips.json', 'r').read())
-tags = json.loads(open('tags.json', 'r').read())
+def get_user_config(userId):
+    data_location = 'data/'
+    try:
+        userData = json.loads(open(data_location + str(userId)+'.json', 'r').read())
+    except Exception as e:
+        return 'Error: ' + str(e)
+    return userData
 
-# User selection
-input_msg = "When's the Next bus from home?"
+def get_endpoints():
+    try:
+        return json.loads(open('endpoints.json', 'r').read())
+    except Exception as e:
+        return 'Error: ' + str(e) 
+
+def nextbus_api(endpoint, as_dataframe=True):
+    api_key = read_api_key('api_key.txt')
+    #api_key = '123123123123123123123123123123' # TODO - Handle incorrect API key error with this test case
+    #api_key = '123' # TODO - Handle incorrect API key length error
+
+    if len(api_key) is not 32:
+        # API error
+        return 'error'
+    else:
+        # Payload
+        headers = {"Referer": "http://www.nextbus.com/"}
+        params = {"key": api_key, "timestamp": int(time.time())}
+
+        # Request
+        try:
+            response = requests.get(endpoint, headers=headers, params=params)
+            response = json.loads(response.text)
+            if as_dataframe:
+                try:
+                    df = pd.DataFrame(response)
+                except ValueError:
+                    df = pd.DataFrame.from_dict(response, orient='index')
+                if len(df) == 1:
+                    response = response[0]
+                    if 'values' in response:
+                        return pd.DataFrame.from_dict(response['values'])
+                    else:
+                        return pd.DataFrame.from_dict(response)
+                else:
+                    return pd.DataFrame({"minutes":[row[0]['minutes'] for row in df['values'].tolist()]})
+            return response
+        except Exception as e:
+            return 'Error: ' + str(e)
+            # TODO:
+            # max_retries = 2
+            # global retry_count
+            # while retry_count <= max_retries:
+            #     ## API error
+            #     # Generate new API key
+            #     refresh_api_key('api_key.txt')
+
+            #     # Re-run user's request
+            #     nextbus_api(endpoint, as_dataframe)
+            #     retry_count += 1
+
+
+# User Input:
+userId = '93828'
+input_msg = "When's the Next bus to home?"
 #input_msg = "update routes"
 
+# App Config:
+endpoints = get_endpoints()
+user_config = get_user_config(userId) # TODO: Handle error
+trips = user_config['trips']
+tags = user_config['tags']
+
+
 # App Execution:
-input_msg = input_msg.lower()
-print(process_input(input_msg))
+print(process_input(input_msg.lower()))
