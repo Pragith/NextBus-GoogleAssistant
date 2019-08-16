@@ -1,6 +1,17 @@
 import requests, json, time, pandas as pd
 
 # Functions
+def get_api_key():
+    try:
+        r = requests.get('http://nextbus.com/').text
+    except Exception:
+        return 'Unable to contact the server'
+    try:
+        pos = r.find('?key=')
+        return r[pos+5:pos+37]
+    except Exception:
+        return 'Unable to find the API key'
+
 def generate_stops_master():
     try:
         # Get all Routes
@@ -29,33 +40,36 @@ def generate_stops_master():
 
 
 def nextbus_api(endpoint, as_dataframe=True):
-    # TODO - Input via GET request to my app's server:
-    api_key = "1b9dc6b03b9d51407536eea824f32aff"
+    api_key = get_api_key()
 
-    # Payload
-    headers = {"Referer": "http://www.nextbus.com/"}
-    params = {"key": api_key, "timestamp": int(time.time())}
+    if len(api_key) is not 32:
+        # API error
+        return api_key
+    else:
+        # Payload
+        headers = {"Referer": "http://www.nextbus.com/"}
+        params = {"key": api_key, "timestamp": int(time.time())}
 
-    # Request
-    try:
-        response = requests.get(endpoint, headers=headers, params=params)
-        response = json.loads(response.text)
-        if as_dataframe:
-            try:
-                df = pd.DataFrame(response)
-            except ValueError:
-                df = pd.DataFrame.from_dict(response, orient='index')
-            if len(df) == 1:
-                response = response[0]
-                if 'values' in response:
-                    return pd.DataFrame.from_dict(response['values'])
+        # Request
+        try:
+            response = requests.get(endpoint, headers=headers, params=params)
+            response = json.loads(response.text)
+            if as_dataframe:
+                try:
+                    df = pd.DataFrame(response)
+                except ValueError:
+                    df = pd.DataFrame.from_dict(response, orient='index')
+                if len(df) == 1:
+                    response = response[0]
+                    if 'values' in response:
+                        return pd.DataFrame.from_dict(response['values'])
+                    else:
+                        return pd.DataFrame.from_dict(response)
                 else:
-                    return pd.DataFrame.from_dict(response)
-            else:
-                return pd.DataFrame({"minutes":[row[0]['minutes'] for row in df['values'].tolist()]})
-        return response
-    except Exception as e:
-        return 'API error: '+e
+                    return pd.DataFrame({"minutes":[row[0]['minutes'] for row in df['values'].tolist()]})
+            return response
+        except Exception as e:
+            return 'API error: '+e
 
 def get_api_url(base_url, params):
     for param in params:
