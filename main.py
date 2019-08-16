@@ -54,7 +54,7 @@ def generate_stops_master():
             stops_master[route] = stop_df
             stops_master_df = stops_master_df.append(stop_df, ignore_index=True)
 
-        stops_master_df.to_csv('stops_master.csv', index=False)
+        stops_master_df.to_csv('app_data/stops_master.csv', index=False)
         return "I'm all refreshed!"
         
     except Exception as e:
@@ -85,7 +85,7 @@ def process_input(input_msg):
     if 'update routes' in input_msg:
         return generate_stops_master()
     else:
-        stops_master_df = pd.read_csv('stops_master.csv')
+        stops_master_df = pd.read_csv('app_data/stops_master.csv')
         
         # Check for tag in input message
         response = -1
@@ -110,35 +110,42 @@ def process_input(input_msg):
 
             # Get Stop prediction
             params = { 'route':user_route, 'stop':stop_id, 'destination':destination_id, 'direction':direction_id }
-            minutes = nextbus_api(get_api_url(endpoints['stops'], params))
-            minutes = minutes['minutes'].tolist()
             try:            
                 minutes = nextbus_api(get_api_url(endpoints['stops'], params))
                 minutes = minutes['minutes'].astype(str).tolist()
                 return voice_response(tag, minutes)
             except Exception:
-                return "Sorry, I had trouble fetching the time. Please try again."
+                return "Sorry, I had trouble fetching at this time. Please try again."
         
         # Tag not found :(
         else:
             return "Sorry, I couldn't find a template from your message. Could you repeat that?"
 
-def get_user_config(userId):
-    data_location = 'data/'
+def read_user_config(userId):
     try:
-        userData = json.loads(open(data_location + str(userId)+'.json', 'r').read())
+        userData = json.loads(open('user_data/' + str(userId)+'.json', 'r').read())
     except Exception as e:
         return 'Error: ' + str(e)
     return userData
 
+def write_user_config(userId, userData):
+    try:
+        print(userData)
+        f = open('user_data/'+userId+'.json', 'w')
+        f.write(json.dumps(userData))
+        f.close()
+        return 'success'
+    except Exception as e:
+        return 'Error: ' + str(e)
+
 def get_endpoints():
     try:
-        return json.loads(open('endpoints.json', 'r').read())
+        return json.loads(open('app_data/endpoints.json', 'r').read())
     except Exception as e:
         return 'Error: ' + str(e) 
 
 def nextbus_api(endpoint, as_dataframe=True):
-    api_key = read_api_key('api_key.txt')
+    api_key = read_api_key('app_data/api_key.txt')
     #api_key = '123123123123123123123123123123' # TODO - Handle incorrect API key error with this test case
     #api_key = '123' # TODO - Handle incorrect API key length error
 
@@ -182,6 +189,18 @@ def nextbus_api(endpoint, as_dataframe=True):
             #     nextbus_api(endpoint, as_dataframe)
             #     retry_count += 1
 
+def update_user_data(userId, userInputData):
+    # Get current user data from storage
+    userData = read_user_config(userId)
+    
+    # Update with new user provided data
+    key = list(userInputData.keys())[0]
+    userData[key] = userInputData[key]
+
+    # Write to storage
+    write_user_config(userId, userData)
+    return 'success'
+
 
 # User Input:
 userId = '93828'
@@ -190,10 +209,12 @@ input_msg = "When's the Next bus to home?"
 
 # App Config:
 endpoints = get_endpoints()
-user_config = get_user_config(userId) # TODO: Handle error
+user_config = read_user_config(userId) # TODO: Handle error
 trips = user_config['trips']
 tags = user_config['tags']
 
-
 # App Execution:
 print(process_input(input_msg.lower()))
+
+
+#%%
