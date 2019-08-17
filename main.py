@@ -55,6 +55,9 @@ def generate_stops_master():
             stops_master_df = stops_master_df.append(stop_df, ignore_index=True)
 
         stops_master_df.to_csv('app_data/stops_master.csv', index=False)
+        f = open('app_data/stops_master.json', 'w')
+        f.write(json.dumps(stops_master_df.to_dict(orient='records')))
+        f.close()
         return "I'm all refreshed!"
         
     except Exception as e:
@@ -215,6 +218,3 @@ tags = user_config['tags']
 
 # App Execution:
 print(process_input(input_msg.lower()))
-
-
-#%%
